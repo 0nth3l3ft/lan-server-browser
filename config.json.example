@@ -1,0 +1,16 @@
+{
+	"port": 3000,
+	"motd": "Welcome to the LAN Server Browser Chat. Type /help for a list of helpful commands.",
+	"channels": [
+		{
+			"name": "public"
+		},
+		{
+			"name": "csgo"
+		},
+		{
+			"name": "l4d2"
+		}
+	],
+	"server_file": "/path/to/lan-game-scanner/output.json"
+}
