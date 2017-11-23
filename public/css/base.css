@@ -1,0 +1,51 @@
+#input {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+#messages { 
+  list-style-type: none; 
+  min-height: 400px;
+  height: calc(100vh - 300px);
+  overflow-y: scroll;
+}
+
+#messages li { 
+  padding: 0px;
+  overflow: hidden; 
+  font-size: 12px;
+  font-family: Courier, sans-serif;
+}
+/*
+#messages li.type-server {
+  background: yellow;
+}*/
+
+#messages li img {
+  height: 16px;
+  width: auto;
+  margin: 2px 0.25em;
+}
+
+#messages li span,
+#messages li img {
+  display: block;
+  float: left;
+}
+#messages li span {
+  line-height: 20px;
+}
+
+#messages li .nickname {
+  float: left;
+  margin-right: 0.5em;
+}
+
+#messages li .nickname:before {
+  content: "[";
+}
+
+#messages li .nickname:after {
+  content: "]: ";
+}

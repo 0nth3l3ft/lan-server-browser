@@ -1,0 +1,16 @@
+var icon_aliases = {
+	'>:)': 'evilgrin',
+	'>:D': 'evilgrin',
+	':)': 'smile',
+	'^^': 'happy',
+	':(': 'unhappy',
+	';)': 'wink',
+	':D': 'grin',
+	':o': 'surprised',
+	':O': 'surprised',
+	':P': 'tongue',
+	':p': 'tongue',
+	':göttersaft:': 'mate',
+	':lebenselexier:': 'mate',
+	':club-mate:': 'mate',
+};
