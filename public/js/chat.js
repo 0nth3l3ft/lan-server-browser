@@ -124,9 +124,9 @@ $(function () {
       localStorage.setItem('user.' + i, data[i]);
     }
 
-    var nickname = localStorage.getItem('user.nickname') || 'anon';
-    var color = localStorage.getItem('user.color') || '#ff0000';
-    var channel = localStorage.getItem('user.channel') || 'public';
+    nickname = localStorage.getItem('user.nickname') || 'anon';
+    color = localStorage.getItem('user.color') || '#ff0000';
+    channel = localStorage.getItem('user.channel') || 'public';
 
     //update settings form
     $('#nickname').val(nickname);
